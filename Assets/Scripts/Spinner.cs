@@ -13,7 +13,7 @@ public class Spinner : MonoBehaviour
     void spinCube()
     {
         float xRotate = 0;
-        float yRotate = 0.3f;
+        float yRotate = 1f;
         float zRotate = 0;
         transform.Rotate(xRotate, yRotate, zRotate);
     }
